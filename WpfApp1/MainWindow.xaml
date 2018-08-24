@@ -10,15 +10,34 @@
         <ImageBrush ImageSource="imgtoe/bg.png"></ImageBrush>
     </Window.Background>
     <Grid Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
-        <Image Source="imgtoe/r.jpg" Margin="214,213,214,203" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="214,30,214,385" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="214,394,214,22" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="28,31,400,385" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="28,213,400,203" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="28,394,400,22" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="401,30,27,386" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="401,213,27,203" RenderTransformOrigin="-0.61,0.559"/>
-        <Image Source="imgtoe/r.jpg" Margin="401,394,27,22" RenderTransformOrigin="-0.61,0.559"/>
+        <Button Name="firsts" Margin="34,31,405,385">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="219,30,220,386">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="406,30,33,385">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="34,213,405,203">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="219,213,220,203">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="406,213,33,203">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="34,394,405,22">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="219,394,220,22">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+        <Button Margin="406,394,33,22">
+            <Image Source="imgtoe/r.jpg"/>
+        </Button>
+
 
     </Grid>
 </Window>

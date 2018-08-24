@@ -25,10 +25,5 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void buttons_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("The button labeled");
-
-        }
     }
 }
